@@ -1,0 +1,75 @@
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('clock.jpg');
+      background-size: 700px;
+      background-size: center;
+    }
+
+    .clock {
+      width: 300px;
+      height: 300px;
+      border: 10px solid #fff;
+      border-radius: 50%;
+      position: relative;
+      background-image: url('Analog clock.jpg');
+      background-size: 300px;
+      background-align: center;
+      box-shadow: 0 0 20px whitesmoke;
+    }
+
+    .hand {
+      width: 50%;
+      height: 4px;
+      background: whitesmoke;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s ease-in-out;
+    }
+
+    .hour {
+      height: 6px;
+      background: white;
+    }
+
+    .minute {
+      background: wheat;
+    }
+
+    .second {
+      background: red;
+      height: 2px;
+    }
+
+    .center {
+      width: 12px;
+      height: 12px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+        .number{
+      position: absolute;
+      font-size: 24px;
+      transform: translate(-50%, -50%);
+       }
+       
+    .number1 { top: 20%; left: 75%; color: white; }
+    .number2 { top: 32%; left: 85%; color: white; }
+    .number3 { top: 50%; left: 90%; color: white; }
+    .number4 { top: 68%; left: 85%; color: white; }
+    .number5 { top: 80%; left: 75%; color: white; }
+    .number6 { top: 88%; left: 50%; color: white ; }
+    .number7 { top: 80%; left: 29%; color: white; }
+    .number8 { top: 68%; left: 15%; color: white; }
+    .number9 { top: 50%; left: 10%; color: white; }
+    .number10 { top: 30%; left: 15%; color: white ; }
+    .number11 { top: 20%; left: 28%; color: white; }
+    .number12 { top: 12%; left: 50%; color:white ; }
